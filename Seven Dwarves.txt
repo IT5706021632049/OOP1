@@ -1,0 +1,469 @@
+import java.util.Scanner;
+public class SevenDwarves {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int d1, d2, d3, d4, d5, d6, d7, d8, d9;
+		int count=0;
+		Scanner scan = new Scanner(System.in);
+		do{
+		do {
+			System.out.print("Enter Number of Dwarves1 (1-99) : ");
+			d1 = scan.nextInt();
+		} while (d1 <= 0 || d1 >= 99);
+		
+		do {
+			System.out.print("Enter Number of Dwarves2 (1-99) : ");
+			d2 = scan.nextInt();
+			if (d2 <= 0 || d2 >= 99) {System.out.println("Input Number Dwarves2 : Please enter again!!!");}
+			 else if (d2 == d1) {System.out.println("Number2 Same Number1 : Please enter again!!!");}
+		} while (d2 <= 0 || d2 >= 99 || d2 == d1);
+		
+		do {
+			System.out.print("Enter Number of Dwarves3 (1-99) : ");
+			d3 = scan.nextInt();
+			if (d3 <= 0 || d3 >= 99) {System.out.println("Input Number Dwarves3 : Please enter again!!!");} 
+			else if (d3 == d1) {System.out.println("Number3 Same Number1 : Please enter again!!!");}
+			else if (d3 == d2) {System.out.println("Number3 Same Number2 : Please enter again!!!");}
+		} while (d3 <= 0 || d3 >= 99 || d3 == d1 || d3 == d2);
+		
+		do {
+			System.out.print("Enter Number of Dwarves4 (1-99) : ");
+			d4 = scan.nextInt();
+			if (d4 <= 0 || d4 >= 99) {System.out.println("Input Number Dwarves4 : Please enter again!!!");} 
+			else if (d4 == d1) {System.out.println("Number4 Same Number1 : Please enter again!!!");}
+			else if (d4 == d2) {System.out.println("Number4 Same Number2 : Please enter again!!!");} 
+			else if (d4 == d3) {System.out.println("Number4 Same Number3 : Please enter again!!!");}
+		} while (d4 <= 0 || d4 >= 99 || d4 == d1 || d4 == d2 || d4 == d3);
+		
+		do {
+			System.out.print("Enter Number of Dwarves5 (1-99) : ");
+			d5 = scan.nextInt();
+			if (d5 <= 0 || d5 >= 99) {System.out.println("Input Number Dwarves5 : Please enter again!!!");} 
+			else if (d5 == d1) {System.out.println("Number5 Same Number1 : Please enter again!!!");}
+			else if (d5 == d2) {System.out.println("Number5 Same Number2 : Please enter again!!!");}
+			else if (d5 == d3) {System.out.println("Number5 Same Number3 : Please enter again!!!");} 
+			else if (d5 == d4) {System.out.println("Number5 Same Number4 : Please enter again!!!");}
+		} while (d5 <= 0 || d5 >= 99 || d5 == d1 || d5 == d2 || d5 == d3 || d5 == d4);
+		
+		do {
+			System.out.print("Enter Number of Dwarves6 (1-99) : ");
+			d6 = scan.nextInt();
+			if (d6 <= 0 || d6 >= 99) {System.out.println("Input Number Dwarves6 : Please enter again!!!");} 
+			else if (d6 == d1) {System.out.println("Number6 Same Number1 : Please enter again!!!");}
+			else if (d6 == d2) {System.out.println("Number6 Same Number2 : Please enter again!!!");} 
+			else if (d6 == d3) {System.out.println("Number6 Same Number3 : Please enter again!!!");}
+			else if (d6 == d4) {System.out.println("Number6 Same Number4 : Please enter again!!!");} 
+			else if (d6 == d5) {System.out.println("Number6 Same Number5 : Please enter again!!!");}
+		} while (d6 <= 0 || d6 >= 99 || d6 == d1 || d6 == d2 || d6 == d3 || d6 == d4 || d6 == d5);
+		
+		do {
+			System.out.print("Enter Number of Dwarves7 (1-99) : ");
+			d7 = scan.nextInt();
+			if (d7 <= 0 || d7 >= 99) {
+				System.out.println("Input Number Dwarves7 : Please enter again!!!");} 
+			else if (d7 == d1) {System.out.println("Number7 Same Number1. Please enter again!!!");}
+			else if (d7 == d2) {System.out.println("Number7 Same Number2. Please enter again!!!");}
+			else if (d7 == d3) {System.out.println("Number7 Same Number3. Please enter again!!!");} 
+			else if (d7 == d4) {System.out.println("Number7 Same Number4. Please enter again!!!");} 
+			else if (d7 == d5) {System.out.println("Number7 Same Number5. Please enter again!!!");}
+			else if (d7 == d6) {System.out.println("Number7 Same Number6. Please enter again!!!");}
+		} while (d7 <= 0 || d7 >= 99 || d7 == d1 || d7 == d2 || d7 == d3 || d7 == d4 || d7 == d5 || d7 == d6);
+		
+		do {
+			System.out.print("Enter Number of Dwarves8 (1-99) : ");
+			d8 = scan.nextInt();
+			if (d8 <= 0 || d8 >= 99) {System.out.println("Input Number Dwarves8 : Please enter again!!!");} 
+			else if (d8 == d1) {System.out.println("Number8 Same Number1 : Please enter again!!!");} 
+			else if (d8 == d2) {System.out.println("Number8 Same Number2 : Please enter again!!!");}
+			else if (d8 == d3) {System.out.println("Number8 Same Number3 : Please enter again!!!");} 
+			else if (d8 == d4) {System.out.println("Number8 Same Number4 : Please enter again!!!");}
+			else if (d8 == d5) {System.out.println("Number8 Same Number5 : Please enter again!!!");} 
+			else if (d8 == d6) {System.out.println("Number8 Same Number6 : Please enter again!!!");} 
+			else if (d8 == d7) {System.out.println("Number8 Same Number7 : Please enter again!!!");}
+		} while (d8 <= 0 || d8 >= 99 || d8 == d1 || d8 == d2 || d8 == d3 || d8 == d4 || d8 == d5 || d8 == d6 || d8 == d7);
+		
+		do {
+			System.out.print("Enter Number of Dwarves9 (1-99) : ");
+			d9 = scan.nextInt();
+			if (d9 <= 0 || d9 >= 99) {System.out.println("Input Number Dwarves9 : Please enter again!!!");} 
+			else if (d9 == d1) {System.out.println("Number9 Same Number1 : Please enter again!!!");} 
+			else if (d9 == d2) {System.out.println("Number9 Same Number2 : Please enter again!!!");}
+			else if (d9 == d3) {System.out.println("Number9 Same Number3 : Please enter again!!!");} 
+			else if (d9 == d4) {System.out.println("Number9 Same Number4 : Please enter again!!!");} 
+			else if (d9 == d5) {System.out.println("Number9 Same Number5 : Please enter again!!!");} 
+			else if (d9 == d6) {System.out.println("Number9 Same Number6 : Please enter again!!!");}
+			else if (d9 == d7) {System.out.println("Number9 Same Number7 : Please enter again!!!");}
+			else if (d9 == d8) {System.out.println("Number9 Same Number7 : Please enter again!!!");}
+		} while (d9 <= 0 || d9 >= 99 || d9 == d1 || d9 == d2 || d9 == d3 || d9 == d4 || d9 == d5 || d9 == d6 || d9 == d7 || d9 == d8);
+		
+		if ((d3 + d4 + d5 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d4 + d5 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d3 + d5 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d3 + d4 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d3 + d4 + d5 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d3 + d4 + d5 + d6 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d3 + d4 + d5 + d6 + d7 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d2 + d3 + d4 + d5 + d6 + d7 + d8) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d4 + d5 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d3 + d5 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d3 + d4 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d3 + d4 + d5 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d3 + d4 + d5 + d6 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d3 + d4 + d5 + d6 + d7 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d3 + d4 + d5 + d6 + d7 + d8) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d2 + d5 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d4 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d4 + d5 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d4 + d5 + d6 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d4 + d5 + d6 + d7 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d4 + d5 + d6 + d7 + d8) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d2 + d3 + d6 + d7 + d8 + d9) == 100) {
+			System.out.println("Output :");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d5 + d7 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d5 + d6 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d5 + d6 + d7 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d5 + d6 + d7 + d8) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d7 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d6 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d6 + d7 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d6 + d7 + d8) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d5 + d8 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves8 :" + d8);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d5 + d7 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d5 + d7 + d8) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves7 :" + d7);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d5 + d6 + d9) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves9 :" + d9);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d5 + d6 + d8) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves8 :" + d8);
+			count=0;
+		} else if ((d1 + d2 + d3 + d4 + d5 + d6 + d7) == 100) {
+			System.out.println("-------Output--------");
+			System.out.println("Dwarves1 :" + d1);
+			System.out.println("Dwarves2 :" + d2);
+			System.out.println("Dwarves3 :" + d3);
+			System.out.println("Dwarves4 :" + d4);
+			System.out.println("Dwarves5 :" + d5);
+			System.out.println("Dwarves6 :" + d6);
+			System.out.println("Dwarves7 :" + d7);
+			count=0;
+		} else {
+			System.out.println("Summary of number not equal 100.!!!");
+			System.out.println("Please take again.!!!");
+			count++;
+		}
+		}while(count == 1);
+	}
+	
+
+}
